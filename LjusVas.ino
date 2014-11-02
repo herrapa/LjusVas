@@ -6,8 +6,8 @@
 #define blue 13
 
 #define redColor 255
-#define greenColor 255
-#define blueColor 50
+#define greenColor 145
+#define blueColor 10
 
 void setup()  { 
   pinMode(red, OUTPUT);
@@ -15,9 +15,9 @@ void setup()  {
   pinMode(blue, OUTPUT);
   
   //loop through all colors for an effect
-  loopColorWithDelay(red, 10);
-  loopColorWithDelay(green, 10);
-  loopColorWithDelay(blue, 10);
+  //loopColorWithDelay(red, 10);
+  //loopColorWithDelay(green, 10);
+  //loopColorWithDelay(blue, 10);
   
   //set the final color
   analogWrite(red, redColor);
